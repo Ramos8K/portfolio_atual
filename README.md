@@ -1,2 +1,2 @@
 # portfolio_atual
-Meu segundo portfólio desenvolvido com linguages de HTML, CSS e JavaScript da Alura.
+Meu Portfólio atual e atualizado, onde falou um pouco sobre mim e mostro meus projetos realizados.
