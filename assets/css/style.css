@@ -89,7 +89,7 @@ section {
     border: 4px solid var(--main-color);
     border-radius: 10px;
     box-shadow: 0 0 3rem var(--main-color); 
-    width: 30vw;
+    width: 35xvw;
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -402,7 +402,7 @@ span {
     }
 
     .img__principal {
-        width: 35vh;
+        width: 35vw;
     }
 }
 
@@ -430,6 +430,10 @@ span {
 
     .home-img {
         margin: none;
+    }
+
+    .img__principal {
+        width: 40vw;
     }
 
     .home-content {
@@ -495,6 +499,10 @@ span {
         margin-top: 4rem;
     }
 
+    .img__principal {
+        width: 55vw;
+    }
+
     .about {
         flex-direction: column-reverse;
     }
@@ -523,11 +531,19 @@ span {
     .portfolio-container {
         grid-template-columns: 1fr;
     }
+
+    .img__principal {
+        width: 55vw;
+    }
 }
 
 @media (max-width: 450px) {
     html {
         font-size: 50%;
+    }
+
+    .img__principal {
+        width: 65vw;
     }
 
     .contact form .input-box input {
@@ -595,10 +611,3 @@ span {
         margin-right: 2rem;
     }
 } 
-
-
-
-
-
-
-
